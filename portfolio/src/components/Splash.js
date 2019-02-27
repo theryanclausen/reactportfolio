@@ -14,7 +14,7 @@ const AppLogoSpin = keyframes`
 const StyledSplash = styled.div`
   text-align: center;
   background-color: #006172;
-  min-height: 100vh;
+  min-height: 105vh;
   display: flex;
   flex-direction: column;
   align-items: center;
