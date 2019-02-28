@@ -11,7 +11,6 @@ const AboutWrapper = styled.div`
     }
 `
 export default () => {
-  console.log('hello')
   return (
     <AboutWrapper id='about'>
     <img src={require('../assets/ryan-img.jpg')} alt='headshot' />
