@@ -9,7 +9,7 @@ const ExperienceWrapper = styled.div`
 `
 export default () => {
   return (
-    <ExperienceWrapper>
+    <ExperienceWrapper id='experience'>
       
     </ExperienceWrapper>
   )

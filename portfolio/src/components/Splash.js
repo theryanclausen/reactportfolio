@@ -1,6 +1,7 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
-import logo from "../logo.png";
+import { Link } from 'react-scroll'
+import logo from "../assets/logo.png";
 
 const AppLogoSpin = keyframes`
     from {
@@ -13,7 +14,7 @@ const AppLogoSpin = keyframes`
 
 const StyledSplash = styled.div`
   text-align: center;
-  background-color: #006172;
+  background-color: #000;
   min-height: 105vh;
   display: flex;
   flex-direction: column;
@@ -69,7 +70,7 @@ export default () => {
           <p>
             Full Stack Web Developer
           </p>
-          <p className="App-link">Learn More</p>
+          <Link to="about" smooth={true} duration={1000}className="App-link">Learn More</Link>
         </div>
       </header>
     </StyledSplash>

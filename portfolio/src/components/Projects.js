@@ -9,7 +9,7 @@ const ProjectsWrapper = styled.div`
 `
 export default () => {
   return (
-    <ProjectsWrapper>
+    <ProjectsWrapper id="projects">
       
     </ProjectsWrapper>
   )
