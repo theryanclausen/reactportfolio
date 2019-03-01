@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import {Link, animatedScroll as scroll} from 'react-scroll'
+import {Link} from 'react-scroll'
 import { twitterPathD, linkedinPathD, githubPathD } from '../assets/svgs'
 
 
@@ -18,11 +18,10 @@ z-index:5;
   margin: 0 auto;
   max-width: 900px;
   .links{
-    
     display:flex;
     justify-content: flex-start;
     align-items:start;
-    
+    cursor:pointer;
     a{
       font-family: 'Aleo', serif;
       margin-right:5px;
@@ -81,11 +80,12 @@ return (
   <StyledHeader>
     <div className="header-container">
     <div className='links'>
-      {/* <Link to='/'>Home</Link> */}
-      {/* <Link to='/'>Experience</Link>
-      <Link to='/'>Projects</Link>
-      <Link to='/'>About</Link> */}
-      {/* <Link to='/blog'>Blog</Link> */}
+    <Link to="about" smooth={true} duration={1000}className="App-link">About</Link>
+    <Link to="projects" smooth={true} duration={1000}className="App-link">Projects</Link>
+    <Link to="experience" smooth={true} duration={1000}className="App-link">Experience</Link>
+    <Link to="splash" smooth={true} duration={1000}className="App-link">Top</Link>
+
+
     </div>
       <div className="icon-container">
         <a

@@ -60,7 +60,7 @@ const StyledSplash = styled.div`
 
 export default () => {
   return (
-    <StyledSplash>
+    <StyledSplash id='splash'>
       <header>
         <div className='over-top'>
           <p>Ryan</p>Clausen
