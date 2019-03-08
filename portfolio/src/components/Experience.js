@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Link } from "react-scroll";
 
 const ExperienceWrapper = styled.div`
-  background: #006f3a;
+  background: #08000c;
   width: 100%;
   min-height: 105vh;
   .container {
@@ -17,8 +17,8 @@ const ExperienceWrapper = styled.div`
       margin: 25px auto;
     }
     .App-link {
-      margin: 30px auto;
-      font-size: 38px;
+      margin: 130px auto;
+      font-size: 138px;
       cursor: pointer;
     }
   }
@@ -36,7 +36,7 @@ export default () => {
           duration={1000}
           className="App-link"
         >
-          Top
+          ▲
         </Link>
       </div>
     </ExperienceWrapper>

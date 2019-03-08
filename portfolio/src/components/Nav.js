@@ -8,7 +8,7 @@ const StyledHeader = styled.header`
 background: lightblue;
 position: fixed;
 top:0;
-width: 100vw;
+width: 100%;
 height:32px;
 z-index:5;
 .header-container {
@@ -23,7 +23,9 @@ z-index:5;
     align-items:start;
     cursor:pointer;
     a{
-      font-family: 'Aleo', serif;
+      /* font-family: 'Aleo', serif; */
+      font-family: 'Sarabun', sans-serif;
+
       margin-right:5px;
       &:hover{
         color:white;

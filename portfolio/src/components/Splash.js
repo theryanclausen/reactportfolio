@@ -48,11 +48,13 @@ const shoot = keyframes`
 
 const StyledSplash = styled.div`
   text-align: center;
-  background: radial-gradient(
-    ellipse at bottom,
+  width: 100%;
+  overflow:hidden;
+  background: linear-gradient(
+    to top,
     #330a2d 0%,
-    #060923 24%,
-    #08000c 55%,
+    #060923 44%,
+    #08000c 65%,
     #000000 100%
   );
   min-height: 105vh;
@@ -78,7 +80,7 @@ const StyledSplash = styled.div`
 
 const Star = styled.div`
   position: absolute;
-  left: ${()=>randomInt(1,100)}%; 
+  left: ${()=>randomInt(1,99)}%; 
   top: ${()=>randomInt(1,100)}%;
   border-radius: 50%;
   box-shadow: ${()=>randomInt(-1,1)}px 0px ${()=>randomInt(18,34)}px 6px #edeeff;
@@ -94,7 +96,7 @@ const ShootingStar = styled.div`
   position: absolute;
   border-radius: 50%;
   background: rgba(255, 205, 205, 1);
-  right: ${()=>randomInt(1,60)}%;
+  right: ${()=>randomInt(8,60)}%;
   top: ${()=>randomInt(1,40)}%;
   animation: ${shoot} ${()=>randomInt(5,9)}s ease-in-out infinite;
   animation-delay: ${()=>randomInt(1,82)}s;

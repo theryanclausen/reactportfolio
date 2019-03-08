@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 @import url("https://fonts.googleapis.com/css?family=Cabin+Sketch:700");
+@import url('https://fonts.googleapis.com/css?family=Sarabun');
 
 html,
 body,
@@ -108,6 +109,8 @@ section {
 }
 body {
   line-height: 1;
+  font-family: 'Sarabun', sans-serif;
+  color: white;
 }
 ol,
 ul {
@@ -129,6 +132,10 @@ table {
   border-spacing: 0;
 }
 
+*{
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -137,7 +144,10 @@ h5 {
   font-family: "Cabin Sketch", cursive;
 }
 
-.App-link {
+a {
   cursor: pointer;
   font-family: "Cabin Sketch", cursive;
+  /* width:100vw;
+  position: absolute;
+  bottom:25px; */
 }

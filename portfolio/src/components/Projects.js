@@ -4,8 +4,7 @@ import { Link } from "react-scroll";
 import ProjectCard from "./ProjectCard";
 
 const ProjectsWrapper = styled.div`
-  background: #e18261;
-  width: 100%;
+  background: linear-gradient(to top,#08000c  0%, #060923 43%) ;
   min-height: 105vh;
   .container {
     width: 85%;

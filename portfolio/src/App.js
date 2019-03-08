@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <>
       <Nav />
-        <Splash />
+        <Splash /> 
         <About />
         <Projects />
         <Experience />

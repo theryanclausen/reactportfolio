@@ -3,9 +3,10 @@ import styled from "styled-components";
 import {Link} from 'react-scroll'
 
 const AboutWrapper = styled.div`
-  background: #b9f6d9;
+  background: linear-gradient(to top, #060923 0%,  #330a2d 43%);
   width: 100%;
   min-height: 105vh;
+  color: white;
   .container {
     width: 85%;
     margin: 0 auto;
@@ -32,9 +33,14 @@ const AboutWrapper = styled.div`
       }
     }
     .logo-box {
-      width: 100%;
+      width: 75%;
+      margin: 0 auto;
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
+      img{
+        margin:25px;
+      }
     }
     .App-link{
       margin:30px auto;
