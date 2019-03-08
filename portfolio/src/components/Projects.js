@@ -7,7 +7,7 @@ const ProjectsWrapper = styled.div`
   background: linear-gradient(to top,#08000c  0%, #060923 43%) ;
   min-height: 105vh;
   .container {
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     padding: 50px 0;
     display: flex;
@@ -20,6 +20,10 @@ const ProjectsWrapper = styled.div`
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
+      @media(max-width:750px){
+    flex-direction: column;
+    align-items:center;
+  }
     }
     .App-link {
       margin: 30px auto;
@@ -37,7 +41,7 @@ export default () => {
           <ProjectCard
             srcPath="thercdotcom.gif"
             url="http://theryanclausen.com"
-            title="Ryan Clausen Film Portfolio"
+            title="Film Portfolio"
             blurb="Lorem ipsum dolor sit amet, clita alterum no eos. Prima oblique quaerendum in has. Duis praesent dissentiunt vis et. Ex dicta expetenda suscipiantur his, autem veritus honestatis ei eum. At sea tempor accusam, cu debet libris usu. Id nam aperiri gubergren, diam dictas ea sit. Mei at illum debet habemus, mel ne utinam appareat, vim at fabellas eleifend."
           />
           <ProjectCard
@@ -55,7 +59,7 @@ export default () => {
           <ProjectCard
             srcPath="bubblenote.gif"
             url="https://bubble-notes.netlify.com"
-            title="Ryan Clausen Film Portfolio"
+            title="Bubble Notes"
             blurb="Lorem ipsum dolor sit amet, clita alterum no eos. Prima oblique quaerendum in has. Duis praesent dissentiunt vis et. Ex dicta expetenda suscipiantur his, autem veritus honestatis ei eum. At sea tempor accusam, cu debet libris usu. Id nam aperiri gubergren, diam dictas ea sit. Mei at illum debet habemus, mel ne utinam appareat, vim at fabellas eleifend."
 
           />
