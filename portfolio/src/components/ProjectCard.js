@@ -39,8 +39,10 @@ const CardWrapper = styled.div`
     font-size: 32px;
     margin: 25px 0;
     text-align: center;
+    transition: all 500ms;
+
     &:hover {
-      color: red;
+      color: lightblue;
     }
   }
 `;

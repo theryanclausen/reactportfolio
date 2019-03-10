@@ -146,8 +146,25 @@ h5 {
 
 a {
   cursor: pointer;
-  font-family: "Cabin Sketch", cursive;
+  /* font-family: "Cabin Sketch", cursive; */
   /* width:100vw;
   position: absolute;
   bottom:25px; */
+}
+
+.App-link{
+  margin:30px auto;
+  font-size:48px;
+  padding:0 68px 5px;
+  border-radius: 15px;
+  background: radial-gradient(circle farthest-side,#330a2d5c , #A1C6D600 );
+  z-index: 25;
+  border: 3px solid #330a2d33;
+  transition: all 500ms;
+  color:#A1C6D6;
+}
+
+.App-link:hover{
+  border: 3px solid #330a2d;
+  color:white;
 }

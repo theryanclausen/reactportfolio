@@ -16,11 +16,7 @@ const ExperienceWrapper = styled.div`
       font-size: 84px;
       margin: 25px auto;
     }
-    .App-link {
-      margin: 130px auto;
-      font-size: 138px;
-      cursor: pointer;
-    }
+
   }
 `;
 export default () => {
@@ -36,7 +32,7 @@ export default () => {
           duration={1000}
           className="App-link"
         >
-          ▲
+          🡡
         </Link>
       </div>
     </ExperienceWrapper>

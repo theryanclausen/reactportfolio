@@ -5,12 +5,13 @@ import { twitterPathD, linkedinPathD, githubPathD } from '../assets/svgs'
 
 
 const StyledHeader = styled.header`
-background: lightblue;
+background: linear-gradient(to top,#06092303 0%,	 #060923A8 44%, #330a2d 93%) ;
 position: fixed;
 top:0;
 width: 100%;
 height:32px;
 z-index:5;
+/* box-shadow: 0 24px 52px 0 lightblue; */
 .header-container {
   display: flex;
   align-items: center;
@@ -19,12 +20,14 @@ z-index:5;
   max-width: 900px;
   .links{
     display:flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items:start;
     cursor:pointer;
+    width:35%;
+    color: lightblue;
     a{
       /* font-family: 'Aleo', serif; */
-      font-family: 'Sarabun', sans-serif;
+      font-family: 'Sarabun', sans-serif; 
 
       margin-right:5px;
       &:hover{
@@ -37,15 +40,15 @@ z-index:5;
     display: flex;
     align-items: center;
     margin-right:20px;
-    
     .icon {
       max-height:24px;
       max-width: 24px;
       fill-opacity: 0;
-      stroke: #0a2e40;
+      stroke: lightblue;
       stroke-width: 2px;
       stroke-linecap: 'round';
       stroke-linejoin: 'round';
+      transition: all 500ms;
       margin: 5px;
       cursor: pointer;
       &:hover {
@@ -82,10 +85,11 @@ return (
   <StyledHeader>
     <div className="header-container">
     <div className='links'>
-    <Link to="about" smooth={true} duration={1000}className="App-link">About</Link>
-    <Link to="projects" smooth={true} duration={1000}className="App-link">Projects</Link>
-    <Link to="experience" smooth={true} duration={1000}className="App-link">Experience</Link>
-    <Link to="splash" smooth={true} duration={1000}className="App-link">Top</Link>
+    <Link to="splash" smooth={true} duration={1000}>🡡</Link>
+    <Link to="about" smooth={true} duration={1000}>About</Link>
+    <Link to="projects" smooth={true} duration={1000}>Projects</Link>
+    <Link to="experience" smooth={true} duration={1000}>Experience</Link>
+    
 
 
     </div>

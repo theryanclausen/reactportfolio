@@ -7,6 +7,7 @@ const AboutWrapper = styled.div`
   width: 100%;
   min-height: 105vh;
   color: white;
+  padding-bottom: 50px;
   .container {
     width: 85%;
     margin: 0 auto;
@@ -27,6 +28,7 @@ const AboutWrapper = styled.div`
         border-radius: 50%;
       }
       p{
+        margin-left: 25px;
         width:650px;
         line-height:1.5;
         font-size:28px;
@@ -42,11 +44,7 @@ const AboutWrapper = styled.div`
         margin:25px;
       }
     }
-    .App-link{
-      margin:30px auto;
-      font-size:38px;
-      cursor:pointer;
-    }
+
   }
 `;
 export default () => {
@@ -78,7 +76,7 @@ export default () => {
           <img src={require("../assets/python-logo.png")} alt="python" />
           <img src={require("../assets/phaser-logo.png")} alt="phaser" />
         </div>
-        <Link to="projects" smooth={true} duration={1000}className="App-link">Projects</Link>
+        <Link to="projects" smooth={true} duration={1000}className="App-link">🡣</Link>
 
       </div>
     </AboutWrapper>

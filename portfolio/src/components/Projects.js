@@ -25,11 +25,7 @@ const ProjectsWrapper = styled.div`
     align-items:center;
   }
     }
-    .App-link {
-      margin: 30px auto;
-      font-size: 38px;
-      cursor: pointer;
-    }
+
   }
 `;
 export default () => {
@@ -71,7 +67,7 @@ export default () => {
           duration={1000}
           className="App-link"
         >
-          Experience
+          🡣
         </Link>
       </div>
     </ProjectsWrapper>
