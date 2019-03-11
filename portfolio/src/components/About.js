@@ -5,7 +5,7 @@ import {Link} from 'react-scroll'
 const AboutWrapper = styled.div`
   background: linear-gradient(to top, #060923 0%,  #330a2d 43%);
   width: 100%;
-  min-height: 105vh;
+  min-height: 100vh;
   color: white;
   padding-bottom: 50px;
   .container {

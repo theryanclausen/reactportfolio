@@ -15,7 +15,8 @@ const ProjectsWrapper = styled.div`
     
     .title {
       font-size: 84px;
-      margin: 25px auto;
+      margin: 0 auto;
+      padding: 25px 0;
     }
     .middle {
       display: flex;
