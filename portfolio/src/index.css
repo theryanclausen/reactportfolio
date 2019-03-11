@@ -158,7 +158,6 @@ a {
   padding:0 68px 5px;
   border-radius: 15px;
   background: radial-gradient(circle farthest-side,#330a2d5c , #A1C6D600 );
-  z-index: 25;
   border: 3px solid #330a2d33;
   transition: all 500ms;
   color:#A1C6D6;

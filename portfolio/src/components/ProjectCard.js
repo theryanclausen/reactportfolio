@@ -2,13 +2,12 @@ import React from "react";
 import styled from "styled-components";
 
 const CardWrapper = styled.div`
-  width: 550px;
+  width: 44%;
+  max-width:550px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  @media (max-width: 1350px) {
-    width: 44%;
-  }
+  
+
   @media(max-width:750px){
     width: 85%;
   }

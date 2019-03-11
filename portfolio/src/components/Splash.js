@@ -80,6 +80,7 @@ const StyledSplash = styled.div`
     transition: all 500ms;
     font-family: "Cabin Sketch", cursive;
     font-size: 38px;
+    color: white;
     &:hover {
       color: lightblue;
     }
