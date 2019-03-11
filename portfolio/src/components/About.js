@@ -32,6 +32,16 @@ const AboutWrapper = styled.div`
         width:650px;
         line-height:1.5;
         font-size:28px;
+        @media (max-width:650px){
+          margin: 10px auto;
+          width: 95%;
+        }
+        @media (max-width:400px){
+          font-size: 22px;
+        }
+      }
+      @media (max-width:650px){
+        flex-direction:column;
       }
     }
     .logo-box {
@@ -40,8 +50,15 @@ const AboutWrapper = styled.div`
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
+      @media (max-width:650px){
+          width: 95%;
+        }
       img{
         margin:25px;
+        @media (max-width:400px){
+          width: 75px;
+          height: 75px;
+        }
       }
     }
 
