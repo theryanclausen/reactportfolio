@@ -51,13 +51,13 @@ export default () => {
             srcPath="hrs.gif"
             url="https://help-ryan-study.netlify.com"
             title="Help Ryan Study"
-            blurb="Lorem ipsum dolor sit amet, clita alterum no eos. Prima oblique quaerendum in has. Duis praesent dissentiunt vis et. Ex dicta expetenda suscipiantur his, autem veritus honestatis ei eum. At sea tempor accusam, cu debet libris usu. Id nam aperiri gubergren, diam dictas ea sit. Mei at illum debet habemus, mel ne utinam appareat, vim at fabellas eleifend."
+            blurb="I built this simple, retro inspired platformer using javaScript, webpack, and the phaser game engine. The rules to Help Ryan Study are simple, use the arrow keys to help Ryan collect Lambda coins and avoid the cat. Occasionally, a bonus coin featuring the logo of a technology learned at Lambda school will drop from the top of the screen."
           />
           <ProjectCard
             srcPath="bubblenote.gif"
             url="https://bubble-notes.netlify.com"
             title="Bubble Notes"
-            blurb="Lorem ipsum dolor sit amet, clita alterum no eos. Prima oblique quaerendum in has. Duis praesent dissentiunt vis et. Ex dicta expetenda suscipiantur his, autem veritus honestatis ei eum. At sea tempor accusam, cu debet libris usu. Id nam aperiri gubergren, diam dictas ea sit. Mei at illum debet habemus, mel ne utinam appareat, vim at fabellas eleifend."
+            blurb="Bubble Notes is an app that allows users to write down their thoughts and watch them float away in bubbles. Users can edit or pop bubbles. Programatically generated bubbles created with the styled components package. This project utilizes React hooks and the ReactN package for global state management. Sqlite3 database hosted on node/express server."
 
           />
         </div>

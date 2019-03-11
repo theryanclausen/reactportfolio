@@ -76,7 +76,7 @@ const StyledSplash = styled.div`
       margin: 25px 0 44px;
     }
   }
-  a {
+  .App-link {
     transition: all 500ms;
     font-family: "Cabin Sketch", cursive;
     font-size: 38px;
