@@ -27,7 +27,7 @@ const ExperienceWrapper = styled.div`
       }
       .text {
         margin-right: 25px;
-        width: 650px;
+        max-width: 650px;
 
         p {
           line-height: 1.5;
@@ -46,7 +46,7 @@ const ExperienceWrapper = styled.div`
           font-size: 22px;
         }
       }
-      @media (max-width: 650px) {
+      @media (max-width: 800px) {
         flex-direction: column-reverse;
       }
     }
