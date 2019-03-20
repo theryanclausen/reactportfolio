@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
+import ArrowButton from './ArrowButton'
 
 const ExperienceWrapper = styled.div`
   background: #08000c;
@@ -89,7 +90,7 @@ export default () => {
             alt="lambda school"
           />
         </div>
-
+        <ArrowButton experience destination='splash'/>
 
       </div>
     </ExperienceWrapper>

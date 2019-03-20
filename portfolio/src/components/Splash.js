@@ -87,8 +87,14 @@ const StyledSplash = styled.div`
     font-family: "Cabin Sketch", cursive;
     font-size: 38px;
     color: white;
+    margin:30px auto;
+  padding:0 68px 5px;
+  border-radius: 15px;
+  border: 3px solid #330a2d33;
+  background: radial-gradient(circle farthest-side,#330a2d5c , #A1C6D600 );
     &:hover {
       color: lightblue;
+      border: 3px solid #330a2d;
     }
   }
 `;

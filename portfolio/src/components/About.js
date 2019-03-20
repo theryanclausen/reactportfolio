@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import {Link} from 'react-scroll'
+import ArrowButton from "./ArrowButton";
 
 const AboutWrapper = styled.div`
   background: linear-gradient(to top, #060923 0%,  #330a2d 43%);
@@ -99,8 +99,7 @@ export default () => {
           <img src={require("../assets/python-logo.png")} alt="python" />
           <img src={require("../assets/phaser-logo.png")} alt="phaser" />
         </div>
-        <Link to="projects" smooth={true} duration={1000}className="App-link">🡣</Link>
-
+        <ArrowButton destination='projects'/>
       </div>
     </AboutWrapper>
   );

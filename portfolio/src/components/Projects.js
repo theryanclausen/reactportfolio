@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-scroll";
+
 import ProjectCard from "./ProjectCard";
+import ArrowButton from "./ArrowButton";
 
 const ProjectsWrapper = styled.div`
   background: linear-gradient(to top,#08000c  0%, #060923 43%) ;
@@ -66,14 +67,7 @@ export default () => {
           />
         </div>
 
-        <Link
-          to="experience"
-          smooth={true}
-          duration={1000}
-          className="App-link"
-        >
-          🡣
-        </Link>
+<ArrowButton destination='experience' />
       </div>
     </ProjectsWrapper>
   );
