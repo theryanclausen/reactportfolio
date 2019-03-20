@@ -70,10 +70,16 @@ const StyledSplash = styled.div`
     h1 {
       font-size: 66px;
       margin: 65px 0;
+      @media (max-width:500px){
+        font-size:44px;
+      }
     }
     h2 {
       font-size: 44px;
       margin: 25px 0 44px;
+      @media (max-width:500px){
+        font-size:34px;
+      }
     }
   }
   .App-link {
@@ -117,7 +123,7 @@ const ShootingStar = styled.div`
 export default () => {
   return (
     <StyledSplash id="splash">
-      {new Array(199).fill("").map((x, i) => (
+      {new Array(99).fill("").map((x, i) => (
         <Star key={i} size={randomInt(1, 4)} />
       ))}
       {new Array(14).fill("").map((x, i) => (

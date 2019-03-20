@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-scroll";
+
 
 const ExperienceWrapper = styled.div`
   background: #08000c;
@@ -15,6 +15,9 @@ const ExperienceWrapper = styled.div`
     .title {
       font-size: 84px;
       margin: 25px auto;
+      @media (max-width:500px){
+        font-size:54px;
+      }
     }
     .middle {
       width: 100%;
@@ -24,6 +27,9 @@ const ExperienceWrapper = styled.div`
       img {
         border-radius: 50%;
         padding: 0 25px;
+        @media (max-width:500px){
+        display:none;
+      }
       }
       .text {
         margin-right: 25px;
@@ -84,9 +90,7 @@ export default () => {
           />
         </div>
 
-        <Link to="splash" smooth={true} duration={1000} className="App-link">
-          🡡
-        </Link>
+
       </div>
     </ExperienceWrapper>
   );

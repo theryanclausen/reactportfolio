@@ -17,6 +17,9 @@ const AboutWrapper = styled.div`
     .title {
       font-size: 84px;
       margin: 25px auto;
+      @media (max-width:500px){
+        font-size:54px;
+      }
     }
     .middle {
       width: 100%;
@@ -26,6 +29,9 @@ const AboutWrapper = styled.div`
       .headshot {
         width: 300px;
         border-radius: 50%;
+        @media (max-width:500px){
+        display:none;
+      }
       }
       p{
         margin-left: 25px;

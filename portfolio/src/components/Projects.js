@@ -17,6 +17,9 @@ const ProjectsWrapper = styled.div`
       font-size: 84px;
       margin: 0 auto;
       padding: 25px 0;
+      @media (max-width:500px){
+        font-size:54px;
+      }
     }
     .middle {
       display: flex;
