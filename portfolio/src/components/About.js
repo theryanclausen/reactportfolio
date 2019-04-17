@@ -3,7 +3,7 @@ import styled from "styled-components";
 import ArrowButton from "./ArrowButton";
 
 const AboutWrapper = styled.div`
-  background: linear-gradient(to top, #060923 0%,  #330a2d 43%);
+  background: linear-gradient(to top, #060923 0%, #330a2d 43%);
   width: 100%;
   min-height: 100vh;
   color: white;
@@ -17,37 +17,37 @@ const AboutWrapper = styled.div`
     .title {
       font-size: 84px;
       margin: 25px auto;
-      @media (max-width:500px){
-        font-size:54px;
+      @media (max-width: 500px) {
+        font-size: 54px;
       }
     }
     .middle {
       width: 100%;
-      display:flex;
-      align-items:center ;
-      justify-content:space-around;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
       .headshot {
         width: 300px;
         border-radius: 50%;
-        @media (max-width:500px){
-        display:none;
+        @media (max-width: 500px) {
+          display: none;
+        }
       }
-      }
-      p{
+      p {
         margin-left: 25px;
-        width:650px;
-        line-height:1.5;
-        font-size:28px;
-        @media (max-width:650px){
+        width: 650px;
+        line-height: 1.5;
+        font-size: 28px;
+        @media (max-width: 650px) {
           margin: 10px auto;
           width: 95%;
         }
-        @media (max-width:400px){
+        @media (max-width: 400px) {
           font-size: 22px;
         }
       }
-      @media (max-width:650px){
-        flex-direction:column;
+      @media (max-width: 650px) {
+        flex-direction: column;
       }
     }
     .logo-box {
@@ -56,18 +56,19 @@ const AboutWrapper = styled.div`
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      @media (max-width:650px){
-          width: 95%;
-        }
-      img{
-        margin:25px;
-        @media (max-width:400px){
+      @media (max-width: 650px) {
+        width: 95%;
+      }
+      img {
+        margin: 25px;
+        width: 100px;
+        height: 100px;
+        @media (max-width: 400px) {
           width: 75px;
           height: 75px;
         }
       }
     }
-
   }
 `;
 export default () => {
@@ -89,7 +90,8 @@ export default () => {
           </p>
         </div>
         <div className="logo-box">
-          <img src={require("../assets/react-logo.png")} alt="react" />
+          <img src={require("../assets/react-logo.png")} alt="react" />{" "}
+          <img src={require("../assets/vue-logo.png")} alt="vue" />
           <img src={require("../assets/node-logo.png")} alt="node" />
           <img src={require("../assets/sql-logo.png")} alt="sql" />
           <img
@@ -99,7 +101,7 @@ export default () => {
           <img src={require("../assets/python-logo.png")} alt="python" />
           <img src={require("../assets/phaser-logo.png")} alt="phaser" />
         </div>
-        <ArrowButton destination='projects'/>
+        <ArrowButton destination="projects" />
       </div>
     </AboutWrapper>
   );
