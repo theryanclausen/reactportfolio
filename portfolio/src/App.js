@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Nav from "./components/Nav";
 import styled from 'styled-components'
+import Education from "./components/Education";
 
 const PageContainer = styled.div`
   overflow:hidden;
@@ -20,6 +21,7 @@ class App extends Component {
         <About />
         <Projects />
         <Experience />
+        <Education />
       </PageContainer>
     );
   }

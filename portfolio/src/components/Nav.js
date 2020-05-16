@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-scroll";
-import { twitterPathD, linkedinPathD, githubPathD } from "../assets/svgs";
+import { linkedinPathD, githubPathD } from "../assets/svgs";
 
 const StyledHeader = styled.header`
   background: linear-gradient(to top, #06092303 0%, #060923a8 44%, #330a2d 93%);
@@ -116,6 +116,9 @@ const Nav = () => {
           <Link to="experience" smooth={true} duration={1000}>
             Experience
           </Link>
+          <Link to="education" smooth={true} duration={1000}>
+            Education
+          </Link>
         </div>
         <div className="icon-container">
           <a
@@ -127,15 +130,7 @@ const Nav = () => {
               <path className="path" d={githubPathD} />
             </svg>
           </a>
-          <a
-            href="https://twitter.com/theryanclausen"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <svg className="twitter icon" xmlns="http://www.w3.org/2000/svg">
-              <path className="path" d={twitterPathD} />
-            </svg>
-          </a>
+
           <a
             href="https://www.linkedin.com/in/ryan-clausen-6285b816b/"
             target="_blank"

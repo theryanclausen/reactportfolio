@@ -83,20 +83,16 @@ export default () => {
             alt="headshot"
           />
           <p>
-          Hey everybody, my name is Ryan and I am a fullstack developer. I am currently employed at Vegas dot com where I build internal apps and microservices. Before starting at Vegas dot com, I was a full time student and part time teaching assistant at Lambda School. I also enjoy learning new technologies and building neat things on my own. 
+          My name is Ryan and I am a fullstack developer. I am currently employed at Vegas.com where I build internal apps and microservices. Before starting at Vegas.com, I was a full time student and part time teaching assistant at Lambda School. I also enjoy learning new technologies and building neat things on my own. 
           </p>
         </div>
         <div className="logo-box">
           <img src={require("../assets/react-logo.png")} alt="react" />{" "}
-          <img src={require("../assets/vue-logo.png")} alt="vue" />
           <img src={require("../assets/node-logo.png")} alt="node" />
+          <img src={require("../assets/graphql.png")} alt="gql" />
           <img src={require("../assets/sql-logo.png")} alt="sql" />
-          <img
-            src={require("../assets/javascript-logo.png")}
-            alt="javascript"
-          />
-          <img src={require("../assets/python-logo.png")} alt="python" />
-          <img src={require("../assets/phaser-logo.png")} alt="phaser" />
+          <img src={require("../assets/prisma-logo.png")} alt="prisma" />
+          <img src={require("../assets/typescript-logo.png")} alt="typescript" />
         </div>
         <ArrowButton destination="projects" />
       </div>

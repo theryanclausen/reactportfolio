@@ -33,12 +33,12 @@ const StyledLink = styled(Link)`
 
 export default props => {
   return (
-    <StyledLink bottom={props.experience  ? '10px' : '15px'} to={props.destination} smooth={true} duration={1000}>
+    <StyledLink bottom={props.end  ? '10px' : '15px'} to={props.destination} smooth={true} duration={1000}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className='arrow'
       >
-        {props.experience ? (
+        {props.end ? (
           <>
             <line x1="12" y1="19" x2="12" y2="5" />
             <polyline className="path" points="5 12 12 5 19 12" />

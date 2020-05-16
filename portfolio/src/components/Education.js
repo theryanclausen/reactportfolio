@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 import ArrowButton from './ArrowButton'
 
-const ExperienceWrapper = styled.div`
+const EducationWrapper = styled.div`
   background: #08000c;
   width: 100%;
   min-height: 105vh;
@@ -26,6 +26,7 @@ const ExperienceWrapper = styled.div`
       align-items: center;
       justify-content: space-around;
       img {
+        border-radius: 50%;
         padding: 0 25px;
         @media (max-width:500px){
         display:none;
@@ -60,35 +61,37 @@ const ExperienceWrapper = styled.div`
 `;
 export default () => {
   return (
-    <ExperienceWrapper id="experience">
+    <EducationWrapper id="education">
       <div className="container">
-        <h2 className="title">Experience</h2>
+        <h2 className="title">Education</h2>
         <div className="middle">
           <div className="text">
-            <h4>Vegas.com</h4>
+            <h4>Lambda School</h4>
             <p>
-              My main responsibility at Vegas.com is updating and maintaining internal applications, 
-              primarily our admin server and ui for our multi-variant proxy, which facilitates A/B 
-              and Blue/Green testing. I updated that application from Java based Wicket/Spring Boot to
-              React/Express with Apollo Graphql for data management. I created a custom Gitlab Webhook 
-              that can serve the latest bundle to a selected internal test environment when a new fix or 
-              feature is merged into select branches.
+              In my time as a student at Lambda school I have built a multitude
+              of projects both on my own and as a part of teams using the agile
+              methodology.
             </p>
             <p>
-              I primarily work with React, Apollo, Graphql, TypeScript and Prisma. I manage non-production 
-              releases using openShift.
+              During my time as a full time Lambda student, I also served as a
+              part time teaching assistant for students on the part time track.
+              My duties included code review and debugging, one on one
+              mentorship, and weekly live review lectures in which I answered
+              student questions and live coded a project relevant to the
+              curriculum of the week.
             </p>
 
+            <p>To get in touch, send me an email at theryanclausen@gmail.com</p>
           </div>
 
           <img
-            src={require("../assets/vegascom.svg")}
+            src={require("../assets/lambdaschool-logo.jpg")}
             alt="lambda school"
           />
         </div>
-        <ArrowButton destination='education'/>
+        <ArrowButton end destination='splash'/>
 
       </div>
-    </ExperienceWrapper>
+    </EducationWrapper>
   );
 };
