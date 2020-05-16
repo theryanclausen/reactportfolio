@@ -83,10 +83,7 @@ export default () => {
             alt="headshot"
           />
           <p>
-            Hey everybody, my name is Ryan and I am a fullstack developer. I am
-            currently a full time student and part time teaching assistant at
-            Lambda School. I also enjoy learning new technologies and building
-            neat things on my own.
+          Hey everybody, my name is Ryan and I am a fullstack developer. I am currently employed at Vegas dot com where I build internal apps and microservices. Before starting at Vegas dot com, I was a full time student and part time teaching assistant at Lambda School. I also enjoy learning new technologies and building neat things on my own. 
           </p>
         </div>
         <div className="logo-box">
